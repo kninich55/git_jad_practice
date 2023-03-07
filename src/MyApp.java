@@ -9,5 +9,6 @@ public class MyApp {
         int num2 = scan.nextInt();
         Calc calc=new Calc(num1,num2);
         System.out.println("Addition result: " + calc.add());
+        System.out.println("Multiplication result: " + calc.multiply());
     }
 }
